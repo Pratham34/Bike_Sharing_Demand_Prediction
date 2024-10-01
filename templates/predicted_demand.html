@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predicted Bike Sharing Demand</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1 class="title"><u>Predicted Bike Sharing Demand</u></h1>
+    <div class="box">
+        <h2>Predicted Bike sharing demand is: {{ demand }} bikes.</h2>
+    </div>
+
+     <img src="{{ url_for('static', filename='bike_image.jpg') }}" alt="Bike Image" class="image">
+</body>
+</html>
