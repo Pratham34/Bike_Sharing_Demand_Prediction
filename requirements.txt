@@ -6,4 +6,4 @@ scikit-learn
 ipykernel
 xgboost
 lightgbm
-streamlit
+gunicorn
